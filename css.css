@@ -1,0 +1,29 @@
+body {
+    color: grey;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 7px;
+}
+
+button {
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+    background-color: blueviolet;
+    transform: rotate(180deg);
+}
+button:hover {
+    transition: 1s;
+    color: black;
+}
